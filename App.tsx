@@ -172,7 +172,7 @@ const App = () => {
         <Text>Task Name: {task.name}</Text>
         <Text>Task Description: {task.description}</Text>
         <Button title="Delete Task" onPress={() => deleteTask(task.name)} />
-        <Button title="Modify Task" onPress={() => modifyTask(task.name)} />
+        
       </View>
     ));
   };
